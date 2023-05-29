@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6552962956761379101}
   - component: {fileID: 6552962956761379100}
   - component: {fileID: 8507271846396082093}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DestructibleBrick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destructionTime: 1
-  itemSpawnChance: 0.51
+  itemSpawnChance: 0.2
   spawnableItems:
   - {fileID: 8452592311336806344, guid: ab74884fd129745f19cc9cbbc2ba73cc, type: 3}
   - {fileID: 1238887972089424262, guid: b78dab491c89840a3a10b9608db5a4e0, type: 3}
