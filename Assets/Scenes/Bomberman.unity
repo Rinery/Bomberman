@@ -328,7 +328,7 @@ GameObject:
   - component: {fileID: 802557987}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -425,7 +425,7 @@ MonoBehaviour:
   inputKey: 32
   bombPrefab: {fileID: 7877429502496465775, guid: 5d33cebec31094993b0eccd94c427f3f, type: 3}
   bombFuseTime: 3
-  bombAmount: 2
+  bombAmount: 1
   explosionPrefab: {fileID: 2660777249154818300, guid: b8bce3dad36c846e49328635a2423161, type: 3}
   explosionLayerMask:
     serializedVersion: 2
