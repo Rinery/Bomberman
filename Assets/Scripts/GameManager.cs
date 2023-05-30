@@ -27,6 +27,15 @@ public class GameManager : MonoBehaviour
 
     private void NewRound()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        int sceneCount = SceneManager.sceneCountInBuildSettings;
+
+        if (SceneManager.GetActiveScene().buildIndex + 1 < sceneCount)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 }
